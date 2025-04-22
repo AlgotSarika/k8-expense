@@ -23,9 +23,9 @@ spec:
         tier: mysql
         project: expense
      spec:
-      containers
-      - name:nginx
-        image:algotsarika/mysql:1.0.0
+      containers:
+      - name: nginx
+        image: algotsarika/mysql:1.0.0
 
 
 
