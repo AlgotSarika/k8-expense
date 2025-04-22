@@ -11,21 +11,21 @@ metadata:
 spec:
    replicas: 1
    selector:
-   matchLables:
-   app: mysql
-   tier: mysql
-   project: expense
-
-template:
-  metadata:
-    lables:
+     matchLables:
       app: mysql
       tier: mysql
       project: expense
-  spec:
-    containers
-    - name:nginx
-      image:algotsarika/mysql:1.0.0
 
+   template:
+    metadata:
+      lables:
+        app: mysql
+        tier: mysql
+        project: expense
+    spec:
+      containers
+      - name:nginx
+        image:algotsarika/mysql:1.0.0
 
+                                            
 
