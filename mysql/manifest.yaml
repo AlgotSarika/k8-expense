@@ -17,12 +17,12 @@ spec:
       project: expense
 
    template:
-    metadata:
+     metadata:
       lables:
         app: mysql
         tier: mysql
         project: expense
-    spec:
+     spec:
       containers
       - name:nginx
         image:algotsarika/mysql:1.0.0
